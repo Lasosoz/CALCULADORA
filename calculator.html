@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Glicemia</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+</head>
+<body>
+
+<form id="glicemiaForm">
+    <label for="horasJejum">Horas de Jejum:</label>
+    <input type="number" id="horasJejum" required>
+
+    <label for="nivelGlicose">Nível de Glicose (mg/dL):</label>
+    <input type="number" id="nivelGlicose" required>
+
+    <button type="button" onclick="calcularGlicemia()">Calcular</button>
+</form>
+
+<div id="resultado"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
