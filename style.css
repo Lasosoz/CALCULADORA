@@ -2,6 +2,8 @@ body {
     font-family: Arial, sans-serif;
     text-align: center;
     padding: 20px;
+    background-color: #5a2f64;
+    color: aliceblue;
 }
 
 button {
@@ -34,3 +36,4 @@ button, #resultado {
     font-weight: bold;
     color: #333;
 }
+
